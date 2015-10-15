@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+    	<title>Alyse Adlard - UI Designer</title>
+    	<link rel="stylesheet" type="text/css" href="styles/home.css">
+    	<link rel="stylesheet" type="text/css" href="styles/jquery.bxslider.css">
+    	<link rel="icon" type="image/ico" href="http://www.alyseadlard.com/images/favicon.ico"/>
+    	<script language="javascript" type="text/javascript" src="scripts/jquery-1.10.2.js"></script>
+    	<script language="javascript" type="text/javascript" src="scripts/home.js"></script>
+    	<script language="javascript" type="text/javascript" src="scripts/lightbox.js"></script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<script type="text/javascript" src="//use.typekit.net/din6hne.js"></script>
+    	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    	
+    	<! This is the parallax slider shit >
+    	<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+		<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$('#nav').localScroll(800);
+		
+			//.parallax(xPosition, speedFactor, outerHeight) options:
+			//xPosition - Horizontal position of the element
+			//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+			//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+			$('#intro').parallax("50%", 0.3);
+			$('#work').parallax("50%", 0.3);
+			//$('.bg').parallax("50%", 0.4);
+			//$('#third').parallax("50%", 0.3);
+	
+			})
+		</script>
+		<! Parallax slider shit ends >
+    	<script language="javascript" type="text/javascript" src="scripts/jquery.bxslider.js"></script>
+    	
+    	<! Google Analytics >
+    	<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-48525008-1', 'alyseadlard.com');
+				ga('send', 'pageview');
+
+  		</script>
+    </head>
+    <body>
+    	<div class="container">
+	    	<div id="intro">
+	    			<a class="btn-small" href="mailto:alyseadlard@gmail.com">Hire Me</a>
+	    		<div id="splash">
+	    			<span class="name">Alyse Adlard</span>
+	    			<span class="title">User Interface Designer</span>
+	    		</div>
+	    		<a class="page-down" href="#about"></a>
+	    		<div id="nav-anchor"></div>
+	    		<div id="nav-placeholder"></div>
+		    	<div id="nav">
+				    	<ul>
+					   		<li id="nav-about"><a href="#about">About</a></li>
+					   		<li id="nav-work"><a href="#work">Work</a></li>
+					     	<li id="nav-social"><a href="#social">Social</a></li>
+					     	<li id="nav-contact"><a href="#contact">Contact</a></li
+				    	</ul>
+				    <a class="page-up">^</a>
+			    </div>
+	    	 	<div class="content">
+	    	 		<div id="about">
+	   	    			<div class="line"></div>
+	   	    			<div class="container-70">
+		   	    			<div class="block map"></div>
+		   	    			<div class="block introduction">
+		   	    				<p>My name is Alyse Adlard, I&#039;m a user interface designer based in <span class="bold">Vancouver, Canada</span>. I solve UX issues and eliminate user frustration by creating supercharged, lightweight interfaces. I also have front end skills and experience with brand strategy and identity design. Take a look at some of my <a href="#work">work</a>.</p>
+		   	    			</div>
+	   	    			</div>
+	   	    			<div class="line"></div>
+	   	    		</div>
+	   	    		<div id="work">
+		   	    		<ul class="bxslider3">
+	   	    				<li><a class="project-card capture" href="javascript:lightbox(null, 'mediacore-capture.html');"><span class="project-title">MediaCore Capture</span></a></li>
+	   	    				<li><a class="project-card mediacore" href="javascript:lightbox(null, 'mediacore.html');"><span class="project-title">MediaCore</span></a></li>
+	   	    				<li><a class="project-card cloud-clinic" href="javascript:lightbox(null, 'cloud-clinic.html');"><span class="project-title">Cloud Clinic</span></a></li>
+	   	    				<li><a class="project-card last blue-butterfly" href="javascript:lightbox(null, 'blue-butterfly.html');"><span class="project-title">Blue Butterfly</span></a></li>
+	   	    			</ul>
+	   	    		</div>
+	   	    		<div id="social">
+	   	    			<div class="line"></div>
+	   	    			<div class="container-70">
+	   	    				<a href="http://dribbble.com/alyseadlard" class="btn-social dribbble"></a>
+	   	    				<a href="http://twitter.com/alyseadlard" class="btn-social twitter"></a>
+	   	    				<a href="http://instagram.com/alyseadlard" class="btn-social instagram"></a>
+	   	    				<a href="http://www.rdio.com/people/alyseadlard/" class="btn-social rdio"></a>
+	   	    			</div>
+	   	    			<div class="line"></div>
+	   	    		</div>
+	   	    		<div id="contact">
+	   	    			<div id="avatar"></div>
+	   	    			<p class="u-like">Like what I&#039;ve made?</p>
+	   	    			<a class="btn-large" href="mailto:alyseadlard@gmail.com">Let&#039;s work together</a>
+	   	    		</div>
+	    	 	</div>
+	    	 	<div id="footer">
+	    	 		<div class="line"></div>
+	    	 		<span class="copyright">&#169;2014 Alyse Adlard</span>
+	    	 	</div>
+	    	</div>
+    	</div>
+    </body>
+</html>

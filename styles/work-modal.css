@@ -1,0 +1,97 @@
+.modal-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-transform: uppercase;
+}
+.close-modal {
+	background: url('../images/close.png');
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: right;
+	margin: -20px -40px;
+}
+.project-title.in-modal {
+	text-align: left;
+	padding: 0 0 20px;
+}
+.project-description {
+	float: left;
+	text-align: left;
+	text-transform: none;
+	max-width: 340px;
+	margin: 40px 0 ;
+}
+.project-description ul {
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.project-description li {
+	color: #FF5200;
+}
+.project-description li span {
+	color: #2b2b2b;
+}
+.external {
+	color: #FF5200;
+}
+.example {
+	width: 550px;
+}
+.store {
+	background: url('../images/app-store-badge.png') no-repeat;
+	display: block;
+	height: 39px;
+	margin: 100px 0 410px;
+}
+.bxslider1 {
+	float: left;
+	margin-top: 5px;
+}
+.example.capture-1 {
+	background: url('../images/capture-1.png');
+	height: 820px;
+}
+.example.capture-2 {
+	background: url('../images/capture-2.png');
+	height: 820px;
+}
+.example.capture-3 {
+	background: url('../images/capture-3.png');
+	height: 820px;
+}
+.example.cloud-clinic-1 {
+	background: url('../images/cloud-clinic-homepage.png') no-repeat;
+	height: 1272px;
+}
+.example.cloud-clinic-2 {
+	background: url('../images/cloud-clinic-for-doctors.png') no-repeat;
+	height: 1233px;
+}
+.example.cloud-clinic-3 {
+	background: url('../images/cloud-clinic-about.png') no-repeat;
+	height: 585px;
+}
+.example.cloud-clinic-4 {
+	background: url('../images/cloud-clinic-contact.png') no-repeat;
+	height: 578px;
+}
+.cloud-clinic-spacer {
+	height: 1050px;
+}
+.example.mediacore-1 {
+	background: url('../images/mediacore-1.jpg') no-repeat;
+	height: 787px;
+}
+.example.mediacore-2 {
+	background: url('../images/mediacore-2.jpg') no-repeat;
+	height: 3294px;
+}
+.example.mediacore-3 {
+	background: url('../images/mediacore-3.jpg') no-repeat;
+	height: 1081px;
+}
+.mediacore-spacer {
+	height: 3000px;
+}
