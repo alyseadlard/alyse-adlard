@@ -10,7 +10,7 @@ body {
 	background: #fff url('../images/background-hawaii.jpg') 0 0 no-repeat fixed;
 	background-size: cover;
 	padding: 40px 0 0 0;
-	height: 1400px;
+	height: 100vh;
 }
 .container-950 {
 	max-width: 950px;
