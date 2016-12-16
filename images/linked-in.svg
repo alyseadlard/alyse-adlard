@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Linked in</title>
+    <title>Clip 34</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M0.4036,15.9988 L3.522,15.9988 L3.522,5.1304 L0.4036,5.1304 L0.4036,15.9988 L0.4036,15.9988 Z M1.8832,3.7712 L1.8608,3.7712 C0.732,3.7712 0,2.94 0,1.888 C0,0.8144 0.7536,0 1.9048,0 C3.0556,0 3.7628,0.8124 3.7856,1.8852 C3.7856,2.9372 3.0556,3.7712 1.8832,3.7712 L1.8832,3.7712 Z M16,16 L12.4636,16 L12.4636,10.3748 C12.4636,8.9024 11.9108,7.8984 10.6944,7.8984 C9.764,7.8984 9.2464,8.5756 9.0056,9.2304 C8.9152,9.464 8.9296,9.7908 8.9296,10.1188 L8.9296,16 L5.426,16 C5.426,16 5.4712,6.036 5.426,5.1304 L8.9296,5.1304 L8.9296,6.8364 C9.1364,6.0904 10.256,5.026 12.0424,5.026 C14.2588,5.026 16,6.5904 16,9.9556 L16,16 L16,16 Z" id="path-1"></path>
@@ -13,8 +13,7 @@
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
-                    <g id="Clip-34"></g>
-                    <polygon id="Fill-33" fill="#292727" mask="url(#mask-2)" points="-0.008 16.016 16.024 16.016 16.024 -0.016 -0.008 -0.016"></polygon>
+                    <use id="Clip-34" fill="#292727" xlink:href="#path-1"></use>
                 </g>
             </g>
         </g>
